@@ -1,4 +1,7 @@
+![License:MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
 # 100+ Basic-Python-Problems
+
 
 ## Qn1: *write a program to calculate the area of a circle of radius "r" entered by user*
 
@@ -483,4 +486,5 @@ if sum==temp:
 else:
     print("----",temp,"is not Armstrong----")
 ```
+
 
