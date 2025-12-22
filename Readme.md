@@ -486,6 +486,82 @@ if sum==temp:
 else:
     print("----",temp,"is not Armstrong----")
 ```
+## Qn43: *Perform following operations on given list*
+- Access Elements: Print the third element.
+- List Length: Print the number of elements in the list
+- Check if Empty: Write a code to check is list empty.
+` given list=[10, 30, 50, 70, 90, 0]`
+### solution:
+``` python
+given_list=[10,30,50,70,90,0]
+#first operation:
+print(given_list[2],"is the third element")
+
+
+#second operation:
+print("no.of elements:",len(given_list))
+
+
+#third operation:
+lenght_of_list=len(given_list)
+if length_of_list==0:
+    print("The given list is empty")
+else:
+    print("The given list is non empty")
+```
+## Qn44: *Perform following list manipulation operations on given list:*
+` list=[10, 20, 30, 40, 50, 60, 70]`
+- Change Element: Change the second element of a list to 200 and print the updated list.
+- Append Element: Add 600 o the end of a list and print the new list.
+- Insert Element: Insert 300 at the third position (index 2) of a list and print the result.
+- Remove Element (by value): Remove 600 from the list and print the list.
+- Remove Element (by index): Remove the element at index 0 from the list print the list.
+### solution:
+```python
+list=[10, 20, 30, 40, 50, 60, 70]
+print("Initial list",list)
+list[1]=200  
+   # this changes the second element to 200, remember the index value of an 'n'th element is (n-1).
+print("List after changing second element",list)
+
+
+list.append(600)     
+   #append() function always add the element on to the last position of the list
+print("list after adding 600 on last postion",list)
+
+
+list.insert(2,300)
+   #syntax: list_name.insert(index,element) ,implies adds the given element in the given index postion
+print("list after adding 300 in third position",list)
+
+
+list.remove(600)
+     #Always remember remove() function removes the first occurance of the given value from the list
+print("list after removing first occurance of 600",list)
+
+del list[0]
+print("list after removing element at index 0:",list)
+```
+## Qn45 *Calculate and print the sum and average of all numbers in a given list*
+`list=[10,20,30,40,50]`
+### solution:
+```python
+list=[10, 20, 30, 40, 50]
+
+sum=0
+for element in list:
+    sum=sum+element
+print("sum of elements:",sum)
+
+no_of_elements=len(list)
+avg=sum/no_of_elements
+print("average of elements of the list:",avg)
+```
+## Qn46: *Create a copy of a list [10, 20, 30] and modify the copy. Print both the original and the copied lists to demonstrate they are independent.*
+### solution:
+```python
+
+
 
 
 
