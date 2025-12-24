@@ -560,6 +560,31 @@ print("average of elements of the list:",avg)
 ## Qn46: *Create a copy of a list [10, 20, 30] and modify the copy. Print both the original and the copied lists to demonstrate they are independent.*
 ### solution:
 ```python
+```python
+original_list=[10, 20, 30]
+print("Original list",original_list)
+
+first_copy_list=original_list[:]
+print("first copy of original list:",first_copy_list)
+first_copy_list.append(40)
+print("modified first copy of original list:",first_copy_list)
+
+second_copy_list=list(original_list)
+print("second copy of original list:",second_copy_list)
+second_copy_list.append(90)
+print("modified second copy of original list:",second_copy_list)
+
+third_copy_list=original_list.copy()
+print("third copy of original list:",third_copy_list)
+third_copy_list.append(80)
+print("modified third copy of original list:",third_copy_list)
+
+#List slicing ([:]) is used to create a shallow copy. It creates a new list containing all the elements of the original list, so copied_list is a distinct object in memory from the original_list.
+
+#another_copy = list(original_list): This uses the list() constructor to create a new list from an existing one, also resulting in a shallow copy.
+
+#third_copy = original_list.copy(): This is the most direct way to create a shallow copy, available from Python 3.3 and onwards
+```
 
 
 
