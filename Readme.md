@@ -559,7 +559,7 @@ print("average of elements of the list:",avg)
 ```
 ## Qn46: *Create a copy of a list [10, 20, 30] and modify the copy. Print both the original and the copied lists to demonstrate they are independent.*
 ### solution:
-```python
+
 ```python
 original_list=[10, 20, 30]
 print("Original list",original_list)
@@ -585,6 +585,7 @@ print("modified third copy of original list:",third_copy_list)
 
 #third_copy = original_list.copy(): This is the most direct way to create a shallow copy, available from Python 3.3 and onwards
 ```
+
 
 
 
