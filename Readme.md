@@ -592,8 +592,8 @@ print("modified third copy of original list:",third_copy_list)
 given_list=["mk", " ",0, "MK",None,"False, "msmk"]
 print("Given list: ",given_list)
 updated_list=list(filter(None,given_list))
-
-
+print(upddated_list)
+```
 
 
 
