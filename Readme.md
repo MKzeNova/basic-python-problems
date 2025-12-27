@@ -589,12 +589,33 @@ print("modified third copy of original list:",third_copy_list)
 ``` given_list=["mk", " ", "MK", "msmk"]```
 ### solution:
 ``` python
-given_list=["mk", " ",0, "MK",None,"False, "msmk"]
+given_list=["elephent",0, "MK",None,False, "thengakkola"]
 print("Given list: ",given_list)
 updated_list=list(filter(None,given_list))
-print(upddated_list)
-```
+print("updated list",updated_list)
+#filter(function, iterable)
 
+#filter() keeps only those elements for which function(element) is True.
+#Why None is used?
+#If the function is None, Python automatically uses bool() on each element.
+#So it keeps elements whose bool(value) is True.
+#What are falsy values?
+#These evaluate to False in Python:
+
+"""
+- 0
+
+- 0.0
+
+- '' (empty string)
+
+- None
+
+- False
+
+- [], {}, ()
+"""
+```
 
 
 
